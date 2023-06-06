@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addfrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBFCFB"
+    tools:context=".AddCropFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_button"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Add Crop"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/productIcon"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:fadingEdgeLength="12sp" />
+
+                <Button
+                    android:id="@+id/addimg"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="137dp"
+                    android:layout_marginTop="176dp"
+                    android:layout_marginEnd="124dp"
+                    android:background="@drawable/green_button"
+                    android:minWidth="150dp"
+                    android:text="Add Image"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/addimg"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edittext_background"
+                    android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Name of Crop"
+                    android:inputType="textPersonName|textCapWords"
+                    android:padding="10dp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/title"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edittext_background"
+                    android:drawableStart="?attr/actionModeSelectAllDrawable"
+                    android:drawablePadding="10dp"
+                    android:hint="Description"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/description"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edittext_background"
+                    android:drawableStart="@drawable/baseline_apps_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Categories"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="406dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/category"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edittext_background"
+                    android:drawableStart="@drawable/baseline_shopping_cart_24"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/quantity_in_kg"
+                    android:inputType="textCapWords"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="406dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/quantity"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edittext_background"
+                    android:drawableStart="@drawable/baseline_currency_rupee_24"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/price_per_qty"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/addCropbtn"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/price"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="137dp"
+                    android:layout_marginTop="29dp"
+                    android:layout_marginEnd="124dp"
+                    android:background="@drawable/edittext_background"
+                    android:minWidth="150dp"
+                    android:text="Add Crop" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

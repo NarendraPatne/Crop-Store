@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Crop Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_exp">ExpActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email (Username)</string>
+    <string name="your_address">Your Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password">Password</string>
+    <string name="price_per_qty">Unit</string>
+    <string name="quantity_in_kg">Available Quantity wrt Unit</string>
+    <string name="qty">Qty:</string>
+    <string name="req_qty">Req Qty:</string>
+    <string name="place_order">Place Order</string>
+    <string name="my_cart">My Cart</string>
+    <string name="crop_store">          Crop Store is an Online Market for Farmers and Customers to perform deals.It is online platform for farmersfrom where he can sell his Crops in Online Mode.</string>
+    <string name="about_sec">      Customers can purchase the crops or other products added by farmers from his home. Farmers do not need to go to market to sell their production and Customers can purchase crops from their home. </string>
+    <string name="this_crop">This Crop Store Android Application is a Final Year Capstone Project of Government Polytechnic, Washim || Information Technology Branch</string>
+    <string name="students">Students:\n1] Narendra Patne\n2]Prathamesh Joshi\n3]Prathamesh Mapari\n4]Om Mohokar\n\nContact Us At: narendrapatne2004@gmail.com</string>
+    <array name="categories">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Pulses</item>
+        <item>Grains</item>
+    </array>
+    <array name="unit">
+        <item>KG</item>
+        <item>Dozen</item>
+        <item>Quintal</item>
+    </array>
+</resources>

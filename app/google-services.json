@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747840508661",
+    "firebase_url": "https://crop-store-default-rtdb.firebaseio.com",
+    "project_id": "crop-store",
+    "storage_bucket": "crop-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747840508661:android:7f1bef58cdedb6e6c8abbc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747840508661-lcne47v0ga80ih5g3debhgrsvgv6aflr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzVTX5GMarBm20uPiUxAkMkKT_bLMXjYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747840508661-lcne47v0ga80ih5g3debhgrsvgv6aflr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

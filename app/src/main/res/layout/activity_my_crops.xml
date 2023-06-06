@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCropsActivity"
+    android:background="#C3F6E4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/topinfoback"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:background="@drawable/baseline_arrow_back_24_or" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="My Crops"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view_mycrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/mycropslayout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
